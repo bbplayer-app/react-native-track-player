@@ -563,6 +563,7 @@ class MusicService : HeadlessJsMediaService() {
             event.audioItemTransition.collect {
                 volumeFadeJob?.cancel()
                 val track = currentTrack
+                Timber.d("RNTP LOUDNESS DEBUG: trackTitle=${track?.title} measured=${track?.measuredLoudness} target=${track?.targetLoudness}")
                 val gain = if (isLoudnessNormalizationEnabled) {
                     val measured = track?.measuredLoudness ?: 0.0
                     val target = track?.targetLoudness ?: -14.0
@@ -571,7 +572,7 @@ class MusicService : HeadlessJsMediaService() {
                     1.0f
                 }
                 val targetVol = userVolume * gain
-                
+
                 if (isFadeEnabled) {
                     volumeFadeJob = player.forwardingPlayer.fadeInTo(targetVol, 600L, scope)
                 } else {

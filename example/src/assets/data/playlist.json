@@ -22,7 +22,11 @@
     "title": "Lullaby (Demo)",
     "artist": "David Chavez",
     "artwork": "https://rntp.dev/example/Lullaby%20(Demo).jpeg",
-    "duration": 71
+    "duration": 71,
+    "loudness": {
+      "measured_i": -18,
+      "target_i": -14.0
+    }
   },
   {
     "url": "https://rntp.dev/example/Rhythm%20City%20(Demo).mp3",
