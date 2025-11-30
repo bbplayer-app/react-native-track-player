@@ -1,5 +1,7 @@
 # Changelog
 
+## [1.1.5](https://github.com/bbplayer-app/react-native-track-player/compare/v1.1.4...v1.1.5) (2025-11-30)
+
 ## [1.1.4](https://github.com/bbplayer-app/react-native-track-player/compare/v1.1.3...v1.1.4) (2025-11-30)
 
 ### Bug Fixes
