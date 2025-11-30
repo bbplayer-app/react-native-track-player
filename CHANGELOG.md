@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.1.1](https://github.com/bbplayer-app/react-native-track-player/compare/v1.1.0...v1.1.1) (2025-11-30)
+
+### Bug Fixes
+
+* session id must be unique ([c999565](https://github.com/bbplayer-app/react-native-track-player/commit/c999565503a4a0c1d2d4e249a50edcceece00a84))
+
 ## [1.1.0](https://github.com/bbplayer-app/react-native-track-player/compare/v0.0.0...v1.1.0) (2025-11-30)
 
 ### Features
