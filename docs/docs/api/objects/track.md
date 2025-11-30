@@ -27,3 +27,4 @@ Only the `url`, `title` and `artist` properties are required for basic playback
 | pitchAlgorithm | [Pitch Algorithm](../constants/pitch-algorithm.md) | The pitch algorithm |
 | headers        | `object`                    | An object containing all the headers to use in the HTTP request |
 | isLiveStream   | `boolean`                   | Used by iOS to present live stream option in control center |
+| loudness | `object` | 响度均衡参数，采用 exoplayer 音量模拟。{ measured_i: number, target_i: number }，如果不存在则设置为 0 |
