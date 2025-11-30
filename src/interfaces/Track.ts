@@ -13,6 +13,10 @@ export interface Track extends TrackMetadataBase {
   pitchAlgorithm?: PitchAlgorithm;
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   headers?: { [key: string]: any };
+  loudness: {
+    measured_i: number; // Integrated loudness in LUFS
+    target_i: number; // Target integrated loudness in LUFS
+  };
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   [key: string]: any;
 }

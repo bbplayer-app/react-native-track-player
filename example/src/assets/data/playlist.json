@@ -11,7 +11,11 @@
     "title": "Soul Searching (Demo)",
     "artist": "David Chavez",
     "artwork": "https://rntp.dev/example/Soul%20Searching.jpeg",
-    "duration": 77
+    "duration": 77,
+    "loudness": {
+      "measured_i": -9.4,
+      "target_i": -14.0
+    }
   },
   {
     "url": "https://rntp.dev/example/Lullaby%20(Demo).mp3",

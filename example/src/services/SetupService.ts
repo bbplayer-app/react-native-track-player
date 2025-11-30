@@ -22,6 +22,8 @@ export const SetupService = async () => {
     await TrackPlayer.updateOptions({
       android: {
         appKilledPlaybackBehavior: DefaultAudioServiceBehaviour,
+        loudnessNormalizationEnabled: true,
+        fadeEnabled: true,
       },
       capabilities: [
         Capability.Play,
